@@ -131,7 +131,7 @@ class DBMS_Lite:
                 messagebox.showinfo("Exported", "Data exported successfully!")
 
     def Check_for_Updates(self):
-        webbrowser.open("https://www.github.com/satishkumarsingh2024/DBMS(Lite)/")
+        webbrowser.open("https://www.github.com/satishkumarsingh2024/DBMS-Lite")
 
     def About(self):
         messagebox.showinfo("About", "DBMS (Lite) (v1.0)\nDeveloped by Satish Kumar Singh")
