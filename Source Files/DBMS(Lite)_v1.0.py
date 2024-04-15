@@ -84,8 +84,8 @@ class DBMS_Lite:
         for Data_Extraction in UserData_Import:
             for Key, Value in Data_Extraction.items():
                 if Key in UserData_Map:
-                    IB_From = UserData_Map[Key]
-                    IB_From.set(Value)
+                    IB_Form = UserData_Map[Key]
+                    IB_Form.set(Value)
 
     def Export(self):
         # Prepare Data for Export
@@ -131,7 +131,7 @@ class DBMS_Lite:
                 messagebox.showinfo("Exported", "Data exported successfully!")
 
     def Check_for_Updates(self):
-        webbrowser.open("https://www.github.com/satishkumarsingh2024/DBMS-Lite")
+        webbrowser.open("https://www.github.com/Satyeshvara/DBMS-Lite")
 
     def About(self):
         messagebox.showinfo("About", "DBMS (Lite) (v1.0)\nDeveloped by Satish Kumar Singh")
